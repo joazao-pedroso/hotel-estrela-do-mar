@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imgs/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Estrela do Mar</title>
+</head>
+<body>
+    <header id="header">
+        <img src="imgs/logo.png">
+        <nav>
+            <ul>
+              <li>
+                <a id="nav1" href="#part1">HOME</a>
+                <a id="nav2" href="#part2">QUARTOS</a>
+                <a id="nav3" href="#part3">LOCALIZAÇÃO</a>
+              </li>
+            </ul>
+          </nav>
+          <div id="saiba_mais">
+            <div class="content">
+              <div class="events">
+                <h2>Eventos Praia Hotel Estrela do Mar</h2>
+                <h3>Para toda a família:</h3>
+                <h4>Manhã:</h4>
+                <p>Caminhada pela Praia: (Todos os dias, das 8h às 9h)</p>
+                <p>Aula de Vôlei de Praia: (Segundas e sextas, das 9h às 10h)</p>
+                <p>Dia de Brincadeiras na Praia: (Terças e quintas, das 10h às 12h)</p>
+                <h4>Tarde:</h4>
+                <p>Torneio de Futebol de Praia: (Sábados, das 14h às 16h)</p>
+                <p>Aula de Surf: (Segundas, quartas e sextas, das 15h às 17h)</p>
+                <p>Stand Up Paddle: (Terças e quintas, das 16h às 18h)</p>
+                <h4>Noite:</h4>
+                <p>Fogueira na Praia: ( Sextas-feiras, das 19h às 21h)</p>
+                <p>Noite de Cinema na Praia: (Sábados, das 20h às 22h)</p>
+                
+
+
+              </div>
+            <img src="imgs/x.png" onclick="teste()" >
+          </div>
+          </div>
+    </header>
+    <section class="part1" id="part1">
+
+      <img src="imgs/img1.png" class="img_part1">
+      <div id="bg"></div>
+      <h2>Relaxe & Curta</h2>
+      <p>Eventos disponiveis para seu lazer</p>
+      <h3 onclick="more()">Saiba mais</h3>
+      <div class="descricao"><h2>Bem-vindo ao Hotel Estrela do Mar!<hr></h2>
+        <p>Localizado no coração de Búzios, RJ, o Hotel Estrela do Mar oferece uma experiência única de conforto e beleza natural. Situado a poucos passos das praias mais deslumbrantes da região, nosso hotel proporciona aos hóspedes uma estadia inesquecível com vistas panorâmicas do oceano e um ambiente acolhedor. Cada detalhe foi cuidadosamente pensado para garantir que você aproveite ao máximo sua visita, seja relaxando à beira da piscina, explorando as belezas naturais de Búzios ou saboreando a gastronomia local em nosso restaurante exclusivo.
+          
+        </p>
+        <p style="top: 75%;">No Hotel Estrela do Mar, a hospitalidade e o bem-estar dos nossos hóspedes são prioridades. Nossas acomodações são espaçosas e elegantemente decoradas, oferecendo todo o conforto necessário para uma estadia perfeita. Além disso, nossa equipe dedicada está sempre pronta para atender às suas necessidades, garantindo que você se sinta em casa desde o momento da sua chegada. Venha descobrir o encanto de Búzios e desfrute de momentos inesquecíveis no Hotel Estrela do Mar, onde o mar e o céu se encontram para criar um cenário de pura magia.</p>
+      </div>
+    </section>
+    <section class="part2" id="part2">
+      <h2>Quartos<hr></h2>
+      <p>No Estrela do Mar Hotel, valorizamos o conforto, a elegância e a qualidade em todos os aspectos da sua estadia. Nossos quartos foram cuidadosamente projetados para oferecer a você uma experiência inesquecível, combinando a cultura caiçara com as comodidades modernas.</p>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imgs/individual.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Suíte individual</h5>
+              <p>Ideal para uma pessoa</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imgs/dupla.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Suíte dupla</h5>
+              <p>Ideal para duas pessoa</p>
+
+              <h5></h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/multipla.png" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Suíte multipla</h5>
+              <p>Ideal para mais de duas pessoa</p>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="part3" id="part3">
+      <h2>Localização</h2>
+      <p>Estamos localizados numa das melhores regiões do litoral fluminense. Venha e conheça a cidade de Búzios/RJ.</p>
+      <p style="top: 45%;"><strong>Atlântica, 10 - Centro - Búzios/RJ</strong></p>
+      <img src="imgs/mapa.png">
+    </section>
+    <section id="part4">
+      <div id="title">
+        <h1>Reservas</h1>
+        <br>
+        <p><strong> FAÇA O ORÇAMENTO DA SUA ESTADIA NO HOTEL  </strong></p>
+      </div>
+      <input type="number" name="" id="day" placeholder="Insira numero de dias">
+
+      <select name="" id="quartos" >
+        <option value="1">Suíte Individual</option>
+        <option value="2">Suíte Duplo</option>
+        <option value="3">Quarto Familiar</option>
+
+      </select>
+      
+      <input type="button" value="Cacular preço" onclick="price()" id="orcamento">
+      <h4 id="total">**VALOR TOTAL**</h4>
+
+    </section>
+    <footer>
+      <p id="codebreakerstext">&copy;Made by Code Breakers SQUAD</p>
+      <img src="imgs/codebreakers.png" id="codebreakers">
+      <img src="imgs/logo.png" id="logo_footer">
+      <img src="imgs/whatsapp.png" id="zap">
+      <p>+55 (21) 98765-4321</p>
+      <img src="imgs/instagram.png" id="insta">
+      <p>@estreladomar_hotel</p>
+      <img src="imgs/email.png" id="email">
+      <p style="margin-right: 2.5%;">contato@estreladomarhotel.com.br </p>
+    </footer>
+
+</body>
+</html>
